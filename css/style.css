@@ -1,0 +1,155 @@
+@import '../css/font.css'; 
+
+:root {
+    --color-text:#828282;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background: #FFF;
+    font-family: 'Inter';
+}
+ 
+button {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1312px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 56px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #000000;
+    font-weight: 500;   
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.header-nav a {
+    padding: 0 48px 0 0;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    background: #000000;
+    padding: 14px 24px;
+    border-radius: 8px;
+}
+
+.home-greetings {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.home-greetings h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.21;
+    margin: 0 0 24px 0;
+}
+
+.home-greetings p {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-text);
+    line-height: 1.5;
+    margin: 0 0 24px 0;
+}
+
+.home-img {
+    margin-top: 124px;
+
+} 
+
+.home-img .container{
+   background: url('../img/bg.jpg') center no-repeat;
+   width: 100%;
+   height: 640px;
+   background-size: 100%;
+}
+
+.home-coments {
+    padding-top: 120px;
+} 
+
+.home-coments h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.home-coments p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.home-coments-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.home-coments-grid-item {
+    padding: 32px;
+    box-shadow: -4px 8px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.home-coments-grid-item p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.home-coments-grid-item-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.home-coments-grid-item-footer b {
+    font-weight: 500;
+    line-height: 1.5;
+    margin-left: 16px;
+}
+
+.home-coments-grid-item-footer p {
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+footer {
+    padding-top: 120px;
+}
