@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First</title>
+    <title>Contacts</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -22,50 +22,41 @@
             </div>
         </div>
     </header>
-    <section class="home-greetings">
+    <section class="contact-flex">
         <div class="container">
-            <h1>Landing page title</h1>
-            <p>And a subheading describing your site, too</p>
-            <button class="button">Button</button>
-        </div>
-    </section>
-    <section class="home-img">
-        <div class="container">
-            <img src="img/bg.jpg" alt="">
-        </div>
-    </section>
-    <section class="home-coments">
-        <div class="container">
-            <h2>Heading</h2>
-            <p>Subheading to introduce testimonials</p>
-            <div class="home-coments-grid">
-                <div class="home-coments-grid-item">
-                    <div class="home-coments-grid-item-header">
-                        <p>“A terrific piece of praise”</p>
-                    </div>
-                    <div class="home-coments-grid-item-footer">
-                        <img src="img/Avatar (1).svg" alt="">
-                        <b>Name<p>Description</p></b>
-                    </div>
+            <div class="contact-flex-item">
+                <div class="contacts-title">
+                    <h3>Contact us</h3>
+                    <span>Subheading for description or instructions</span>
                 </div>
-                <div class="home-coments-grid-item">
-                    <div class="home-coments-grid-item-header">
-                        <p>“A terrific piece of praise”</p>
-                    </div>
-                    <div class="home-coments-grid-item-footer">
-                        <img src="img/Avatar (1).svg" alt="">
-                        <b>Name<p>Description</p></b>                    
-                    </div>
+                <div class="contacts-form">
+                    <form action="">
+                        <div class="contacts-form-flex">
+                            <div class="contacts-form-flex-item">
+                                <div class="contacts-form-flex-label">
+                                    <label for="first-name">First name</label>
+                                    <input type="text" name="first-name">
+                                </div>  
+                                <div class="contacts-form-flex-label">
+                                    <label for="last-name">Last name</label>
+                                    <input type="text" name="last-name" >
+                                </div>
+                            </div>
+                            <div class="contacts-form-flex-item--2">
+                                <label for="email">Email address</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div class="contacts-form-flex-item--2">   
+                                <label for=" message">Your message</label>
+                                <textarea type="text" rows="5" placeholder="Enter your question or message"></textarea>
+                            </div>
+                            <button class="button">Submit</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="home-coments-grid-item">
-                    <div class="home-coments-grid-item-header">
-                        <p>“A terrific piece of praise”</p>
-                    </div>
-                    <div class="home-coments-grid-item-footer">
-                        <img src="img/Avatar (1).svg" alt="">
-                        <b>Name<p>Description</p></b>
-                    </div>
-                </div>
+            </div>
+            <div class="contact-flex-item">
+                <img src="img/form-img.jpg" alt="">
             </div>
         </div>
     </section>
